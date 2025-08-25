@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		20EE03652E5C73DC002FCB56 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 20EE034E2E5C73DB002FCB56 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20EE03552E5C73DB002FCB56;
+			remoteInfo = ImageFilters;
+		};
+		20EE036F2E5C73DC002FCB56 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 20EE034E2E5C73DB002FCB56 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20EE03552E5C73DB002FCB56;
+			remoteInfo = ImageFilters;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		20EE03562E5C73DB002FCB56 /* ImageFilters.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageFilters.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		20EE03642E5C73DC002FCB56 /* ImageFiltersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageFiltersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		20EE036E2E5C73DC002FCB56 /* ImageFiltersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageFiltersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		20EE03582E5C73DB002FCB56 /* ImageFilters */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ImageFilters;
+			sourceTree = "<group>";
+		};
+		20EE03672E5C73DC002FCB56 /* ImageFiltersTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ImageFiltersTests;
+			sourceTree = "<group>";
+		};
+		20EE03712E5C73DC002FCB56 /* ImageFiltersUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ImageFiltersUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		20EE03532E5C73DB002FCB56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20EE03612E5C73DC002FCB56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20EE036B2E5C73DC002FCB56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20EE034D2E5C73DB002FCB56 = {
+			isa = PBXGroup;
+			children = (
+				20EE03582E5C73DB002FCB56 /* ImageFilters */,
+				20EE03672E5C73DC002FCB56 /* ImageFiltersTests */,
+				20EE03712E5C73DC002FCB56 /* ImageFiltersUITests */,
+				20EE03572E5C73DB002FCB56 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		20EE03572E5C73DB002FCB56 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				20EE03562E5C73DB002FCB56 /* ImageFilters.app */,
+				20EE03642E5C73DC002FCB56 /* ImageFiltersTests.xctest */,
+				20EE036E2E5C73DC002FCB56 /* ImageFiltersUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		20EE03552E5C73DB002FCB56 /* ImageFilters */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20EE03782E5C73DC002FCB56 /* Build configuration list for PBXNativeTarget "ImageFilters" */;
+			buildPhases = (
+				20EE03522E5C73DB002FCB56 /* Sources */,
+				20EE03532E5C73DB002FCB56 /* Frameworks */,
+				20EE03542E5C73DB002FCB56 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				20EE03582E5C73DB002FCB56 /* ImageFilters */,
+			);
+			name = ImageFilters;
+			packageProductDependencies = (
+			);
+			productName = ImageFilters;
+			productReference = 20EE03562E5C73DB002FCB56 /* ImageFilters.app */;
+			productType = "com.apple.product-type.application";
+		};
+		20EE03632E5C73DC002FCB56 /* ImageFiltersTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20EE037B2E5C73DC002FCB56 /* Build configuration list for PBXNativeTarget "ImageFiltersTests" */;
+			buildPhases = (
+				20EE03602E5C73DC002FCB56 /* Sources */,
+				20EE03612E5C73DC002FCB56 /* Frameworks */,
+				20EE03622E5C73DC002FCB56 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				20EE03662E5C73DC002FCB56 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				20EE03672E5C73DC002FCB56 /* ImageFiltersTests */,
+			);
+			name = ImageFiltersTests;
+			packageProductDependencies = (
+			);
+			productName = ImageFiltersTests;
+			productReference = 20EE03642E5C73DC002FCB56 /* ImageFiltersTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		20EE036D2E5C73DC002FCB56 /* ImageFiltersUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20EE037E2E5C73DC002FCB56 /* Build configuration list for PBXNativeTarget "ImageFiltersUITests" */;
+			buildPhases = (
+				20EE036A2E5C73DC002FCB56 /* Sources */,
+				20EE036B2E5C73DC002FCB56 /* Frameworks */,
+				20EE036C2E5C73DC002FCB56 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				20EE03702E5C73DC002FCB56 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				20EE03712E5C73DC002FCB56 /* ImageFiltersUITests */,
+			);
+			name = ImageFiltersUITests;
+			packageProductDependencies = (
+			);
+			productName = ImageFiltersUITests;
+			productReference = 20EE036E2E5C73DC002FCB56 /* ImageFiltersUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		20EE034E2E5C73DB002FCB56 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					20EE03552E5C73DB002FCB56 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					20EE03632E5C73DC002FCB56 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 20EE03552E5C73DB002FCB56;
+					};
+					20EE036D2E5C73DC002FCB56 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 20EE03552E5C73DB002FCB56;
+					};
+				};
+			};
+			buildConfigurationList = 20EE03512E5C73DB002FCB56 /* Build configuration list for PBXProject "ImageFilters" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 20EE034D2E5C73DB002FCB56;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 20EE03572E5C73DB002FCB56 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				20EE03552E5C73DB002FCB56 /* ImageFilters */,
+				20EE03632E5C73DC002FCB56 /* ImageFiltersTests */,
+				20EE036D2E5C73DC002FCB56 /* ImageFiltersUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		20EE03542E5C73DB002FCB56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20EE03622E5C73DC002FCB56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20EE036C2E5C73DC002FCB56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		20EE03522E5C73DB002FCB56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20EE03602E5C73DC002FCB56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20EE036A2E5C73DC002FCB56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		20EE03662E5C73DC002FCB56 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 20EE03552E5C73DB002FCB56 /* ImageFilters */;
+			targetProxy = 20EE03652E5C73DC002FCB56 /* PBXContainerItemProxy */;
+		};
+		20EE03702E5C73DC002FCB56 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 20EE03552E5C73DB002FCB56 /* ImageFilters */;
+			targetProxy = 20EE036F2E5C73DC002FCB56 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		20EE03762E5C73DC002FCB56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 2Q93SCVU99;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		20EE03772E5C73DC002FCB56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 2Q93SCVU99;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		20EE03792E5C73DC002FCB56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ImageFilters/ImageFilters.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2Q93SCVU99;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = net.lovholm.ImageFilters;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		20EE037A2E5C73DC002FCB56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ImageFilters/ImageFilters.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2Q93SCVU99;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = net.lovholm.ImageFilters;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		20EE037C2E5C73DC002FCB56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2Q93SCVU99;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = net.lovholm.ImageFiltersTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ImageFilters.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ImageFilters";
+			};
+			name = Debug;
+		};
+		20EE037D2E5C73DC002FCB56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2Q93SCVU99;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = net.lovholm.ImageFiltersTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ImageFilters.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ImageFilters";
+			};
+			name = Release;
+		};
+		20EE037F2E5C73DC002FCB56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2Q93SCVU99;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = net.lovholm.ImageFiltersUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = ImageFilters;
+			};
+			name = Debug;
+		};
+		20EE03802E5C73DC002FCB56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2Q93SCVU99;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = net.lovholm.ImageFiltersUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = ImageFilters;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		20EE03512E5C73DB002FCB56 /* Build configuration list for PBXProject "ImageFilters" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20EE03762E5C73DC002FCB56 /* Debug */,
+				20EE03772E5C73DC002FCB56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20EE03782E5C73DC002FCB56 /* Build configuration list for PBXNativeTarget "ImageFilters" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20EE03792E5C73DC002FCB56 /* Debug */,
+				20EE037A2E5C73DC002FCB56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20EE037B2E5C73DC002FCB56 /* Build configuration list for PBXNativeTarget "ImageFiltersTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20EE037C2E5C73DC002FCB56 /* Debug */,
+				20EE037D2E5C73DC002FCB56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20EE037E2E5C73DC002FCB56 /* Build configuration list for PBXNativeTarget "ImageFiltersUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20EE037F2E5C73DC002FCB56 /* Debug */,
+				20EE03802E5C73DC002FCB56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 20EE034E2E5C73DB002FCB56 /* Project object */;
+}
