@@ -17,6 +17,7 @@ struct MetalFilter: Identifiable {
     let name: String              // e.g. "fx_invert"
     var enabled: Bool = false
     let pipeline: MTLComputePipelineState
+    var bindParams: ((MTLComputeCommandEncoder) -> Void)? = nil // ← typed
 }
 
 // MARK: - Engine
@@ -46,7 +47,16 @@ final class MetalEngine {
         return try names.map { name in
             let fn = library.makeFunction(name: name)!
             let ps = try device.makeComputePipelineState(function: fn)
-            return MetalFilter(name: name, enabled: false, pipeline: ps)
+            var filter = MetalFilter(name: name, enabled: false, pipeline: ps)
+            if name == "fx_posterize" {
+                filter.bindParams = { (enc: MTLComputeCommandEncoder) in
+                    var levels: Float = 5.0        // choose your value (>= 2)
+                    enc.setBytes(&levels,
+                                 length: MemoryLayout<Float>.size,
+                                 index: 0)
+                }
+            }
+            return filter
         }
     }
 

@@ -65,6 +65,32 @@ kernel void fx_box3x3(texture2d<float, access::read>  inTex  [[texture(0)]],
     outTex.write(acc / 9.0, gid);
 }
 
+kernel void fx_posterize(
+    texture2d<float, access::read>  inTex  [[texture(0)]],
+    texture2d<float, access::write> outTex [[texture(1)]],
+    constant float &levels                   [[buffer(0)]],
+    uint2 gid                                [[thread_position_in_grid]]
+) {
+    if (gid.x >= outTex.get_width() || gid.y >= outTex.get_height()) return;
+
+    // Read exact texel; no sampling.
+    float4 c = inTex.read(gid);
+
+    // Ensure sane levels (min 2).
+    float L = max(levels, 2.0);
+
+    // Choose ONE of these mappings:
+
+    // A) “Full white reachable” (evenly spaced 0..1):
+    float3 q = floor(c.rgb * (L - 1.0)) / (L - 1.0);
+
+    // B) “Simple bucket” (slight dark bias):
+    // float3 q = floor(c.rgb * L) / L;
+
+    // Write back.
+    outTex.write(float4(clamp(q, 0.0, 1.0), c.a), gid);
+}
+
 
 
 
