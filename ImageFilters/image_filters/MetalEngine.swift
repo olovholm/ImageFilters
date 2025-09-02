@@ -50,7 +50,7 @@ final class MetalEngine {
             var filter = MetalFilter(name: name, enabled: false, pipeline: ps)
             if name == "fx_posterize" {
                 filter.bindParams = { (enc: MTLComputeCommandEncoder) in
-                    var levels: Float = 5.0        // choose your value (>= 2)
+                    var levels: Float = 3.0        // choose your value (>= 2)
                     enc.setBytes(&levels,
                                  length: MemoryLayout<Float>.size,
                                  index: 0)
@@ -112,6 +112,8 @@ final class MetalEngine {
             enc.setComputePipelineState(f.pipeline)
             enc.setTexture(src, index: 0)
             enc.setTexture(dst, index: 1)
+
+            f.bindParams?(enc)
 
             // Threading: 16x16 is usually fine for 2D image kernels
             let wgp = MTLSize(width: 16, height: 16, depth: 1)
